@@ -1,0 +1,23 @@
+h1 {
+    padding-top: 100px;
+}
+
+tr{
+    border: 1px solid black;
+}
+
+.container {
+    margin-top: 1%;
+}
+
+#yes{
+    margin-right: 10px;
+}
+
+td {
+    padding-right: 100px;
+}
+
+#red {
+    background: tomato;
+}
