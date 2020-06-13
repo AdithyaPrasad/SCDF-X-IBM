@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital Risk Assessment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome PTE Iwanted Commdskool!</h1>
+        <h4>Please fill out the following form:</h4>
+        <label for="todayDate">Date:</label>
+        <input type="date" id="todayDate" name="todayDate">
+        <label for="currentTime">Time:</label>
+        <input type="time" id="currentTime" name="currentTime">        
+
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th id="yes">Yes</th>
+                    <th>No</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>I am feeling well today</td>
+
+                    <td>
+                        <label for="dogs"></label>
+                        <input name ="q1"id="dogs" type ="radio" value="dog">
+                    </td>
+                    <td>
+                        <label for="cats"></label>
+                        <input name="q1" id="cats" type="radio" value="cat">
+                    </td>
+                </tr>
+                <tr>
+                    <td>I have 7 hours of mandatory rest the previous night</td>
+
+                    <td>
+                        <label for="dogs"></label>
+                        <input name ="q2"id="dogs" type ="radio" value="dog">
+                    </td>
+                    <td>
+                        <label for="cats"></label>
+                        <input name="q2" id="cats" type="radio" value="cat">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <form>
+            <p>What's your current mood?</p>
+            <select name="mood">
+                <option value="happy">:)</option>
+                <option value="neutral">:|</option>
+                <option value="sad">:(</option>
+            </select>
+            <p>Enter your current temperature</p>
+            <textarea name ="paragraph" rows="1" cols="10"></textarea>
+            <button>Go!</button>
+        </form>
+    </div>
+</body>
+</html>
